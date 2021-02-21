@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".AddNewGoal">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="Add New Goal"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="152dp"
+            tools:layout_editor_absoluteY="54dp" />
+
+        <EditText
+            android:id="@+id/etGoalTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Goal Title"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etGoalDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Goal Description"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/etGoalEndDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Goal Date: dd/mm/yyy"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etGoalEndTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Goal Time:  hh:mm:ss"
+            android:inputType="textPersonName" />
+
+        <Switch
+            android:id="@+id/switch_GoalNotification"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:text="Do you want daily reminders?"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/btnSaveGoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Save Goal" />
+
+    </LinearLayout>
+
+</ScrollView>

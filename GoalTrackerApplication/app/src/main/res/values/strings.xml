@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Goal Tracker Application</string>
+    <string name="test">TEST</string>
+    <string name="changetheme"><u>Change Theme</u></string>
+    <string name="settings">SETTINGS</string>
+    <string name="permissions"><u>Permissions</u></string>
+
+</resources>

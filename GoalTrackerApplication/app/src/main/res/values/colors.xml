@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+     <color name="tabindicatorcolor">#2d2d2d</color>
+     <color name="tabtextcolor">#fff</color>
+     <color name="colorAccent">#009688</color>-->
+    <color name="colorPrimary">#64485C</color>
+    <color name="colorPrimaryDark">#64485C</color>
+    <color name="tabindicatorcolor">#2d2d2d</color>
+    <color name="tabtextcolor">#fff</color>
+    <color name="colorAccent">#009688</color>
+    <color name="black">#000000</color>
+
+    <color name="White">#FFFFFF</color>
+    <color name="UserPanel1">#A0D2DB</color>
+    <color name="UserPanel2">#BEE7E8</color>
+    <color name="grey">#ADADAD</color>
+
+    <color name="PurpleDarkest">#231114</color>
+    <color name="PurpleDark">#501B1D</color>
+    <color name="PurpleMid">#64485C</color>
+    <color name="PurpleLight">#83677B</color>
+    <color name="PurpleGrey">#ADADAD</color>
+
+
+</resources>
